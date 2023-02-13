@@ -1,0 +1,86 @@
+.tarif {
+  margin-top: 100px;
+}
+.tarif__top {
+  text-align: center;
+}
+.tarif-title {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 64px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1d2530;
+  margin-bottom: 16px;
+}
+.tarif-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1d2530;
+  margin-bottom: 40px;
+}
+.tarif__bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+}
+.tarif-cards-item {
+  background: #fcfeff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+.card-top {
+  background: rgba(104, 94, 214, 0.05);
+}
+.card-bot {
+  padding: 40px 30px 50px 30px;
+  text-align: center;
+}
+.card-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 48px;
+  padding: 7px 114px;
+  color: #685ed6;
+}
+.card-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1d2530;
+  margin-bottom: 32px;
+}
+.card-price {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 46px;
+  color: #1d2530;
+}
+@media only screen and (max-width: 768px) {
+  .item3 {
+    display: none;
+  }
+  .card-btn{
+    padding: 12px 58px;
+  }
+  .card-title{
+  padding: 7px 102px;
+  }
+  .tarif-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1D2530;
+    margin-bottom: 8px;
+  }
+  .tarif-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1D2530;
+    margin-bottom: 36px;
+  }
+}

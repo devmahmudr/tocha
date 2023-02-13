@@ -1,0 +1,81 @@
+.bot-card {
+  text-align: center;
+  width: 241px;
+  margin-bottom: 42px;
+}
+.bot-card span {
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #685ed6;
+  background: #f1e4ff;
+  margin: 0 auto;
+}
+.bot-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #1d2530;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+.bot-card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1d2530;
+}
+.telegramchat__bot {
+  display: flex;
+  justify-content: space-between;
+}
+.telegramchat-title {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 64px;
+  color: #1d2530;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 56px;
+}
+.bot-card:nth-child(2) {
+  margin-top: 70px;
+}
+.phones {
+  display: flex;
+  justify-content: space-between;
+}
+.x2 {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .telegramchat-title {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 88px;
+    margin-bottom: 39px;
+  }
+  .bot-card-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .x, .x2, .x3{
+    width: 202px;
+    height: 417px;
+  }
+  .x2{
+    margin: 0;
+  }
+  .bot-card:nth-child(2) {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.burger{
+    display: none;
+}
+@media only screen and (max-width:375px) {
+    .burger{
+        display: block;
+    }
+    .header-btns{
+        display: none;
+    }
+}
